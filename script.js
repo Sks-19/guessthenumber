@@ -60,7 +60,7 @@ document.querySelector('.again').addEventListener('click', function () {
   displayMessage('Start guessing...', '#eee', '4vw');
   document.querySelector('.number').textContent = '?';
   displayScore(10);
-  bodyBgColor('#eee');
+  bodyBgColor('black');
   score = 10;
   guessNumber = Math.trunc(Math.random() * 20);
 });

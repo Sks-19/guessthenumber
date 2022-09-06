@@ -13,8 +13,8 @@ html {
 
 body {
   font-family: 'Press Start 2P', sans-serif;
-  color: #eee;
-  background-color: #222;
+  color: #fff;
+  background-color: black;
   height: 100vh;
   /* background-color: #60b347; */
 }
@@ -23,12 +23,12 @@ body {
 header {
   position: relative;
   height: 30vh;
-  border-bottom: 7px solid #eee;
+  border-bottom: 7px solid black;
 }
 
 main {
   height: 70vh;
-  color: #eee;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -58,8 +58,8 @@ h1 {
 }
 
 .number {
-  background: #eee;
-  color: #333;
+  background: #000000;
+  color: #fff;
   font-size: 6rem;
   width: 15rem;
   padding: 3rem 0rem;
@@ -97,8 +97,8 @@ h1 {
 
 .bttn {
   border: none;
-  background-color: #eee;
-  color: #222;
+  background-color: #000000;
+  color: #fff;
   font-family: inherit;
   cursor: pointer;
 }
